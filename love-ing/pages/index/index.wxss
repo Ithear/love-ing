@@ -1,5 +1,6 @@
 /**index.wxss**/
 
+
 /* 首页整体背景 */
 .indexBody{
     width:100%;
@@ -19,5 +20,26 @@
     transform: rotate(0deg);
     border-radius: 50rpx;
     box-shadow: 10rpx 10rpx 10rpx #888;
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
 
 }
