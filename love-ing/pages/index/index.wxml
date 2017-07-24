@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="indexBody" style="background-image: url('../../images/首页背景.jpg'); background-repeat:round;">
+   <view class="buttonText">欢迎进入首页《《</view>
+   
+   <button class="s" name="s" plain="ture" type="default">欢迎进入宇于某</button> 
+</view>
