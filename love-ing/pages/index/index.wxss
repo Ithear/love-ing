@@ -1,45 +1,25 @@
 /**index.wxss**/
 
-
 /* 首页整体背景 */
-.indexBody{
-    width:100%;
-    height: 1150rpx;
-    background-color: #000;
-    position: relative;
-}
-.s{
-    margin-left: 220rpx;
-    position:absolute;
-    bottom: 200rpx;
-    width: 300rpx;
-    height: 100rpx;
-    border: 2rpx solid #000000;
-    padding: 10rpx;
-    text-align: center;
-    transform: rotate(0deg);
-    border-radius: 50rpx;
-    box-shadow: 10rpx 10rpx 10rpx #888;
-
-
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.indexBody {
+  width: 100%;
+  height: 1200rpx;
+  background-color: #000;
+  position: relative;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+body {
+  text-align: center;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.buttonText {
+  position: absolute;
+  margin-top: 250rpx;
+  margin-left: 350rpx;
+  border:0rpx;
+  width: 30rpx;
+  line-height: 30rpx;
+  font-size: 25rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
 
-}

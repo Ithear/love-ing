@@ -1,16 +1,13 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/subject/subject",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-
-    "navigationBarTitleText": "宇与某",
-
-    "navigationBarTitleText": "WeChat",
-
+    "navigationBarTitleText": "恋爱小窝",
     "navigationBarTextStyle":"black"
   }
 }
