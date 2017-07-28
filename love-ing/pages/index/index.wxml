@@ -1,18 +1,6 @@
 <!--index.wxml-->
-
-<view class="indexBody" style="background-image: url('../../images/首页背景.jpg'); background-repeat:round;">
-   <view class="buttonText">欢迎进入首页《《</view>
-   
-   <button class="s" name="s" plain="ture" type="default">欢迎进入宇于某</button> 
+<navigator url="../subject/subject">
+<view class="indexBody" style="background-image: url('http://love-ing.oss-cn-beijing.aliyuncs.com/love%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF.jpg'); background-repeat:round;">
+   <view class="buttonText" name="s" plain="ture" >欢迎进入恋爱小窝</view> 
 </view>
-
-<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
-
+</navigator>
