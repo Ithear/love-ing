@@ -4,7 +4,7 @@
   <view class="card_wrap">
     <view bindtouchend="slidethis" animation="{{id === 0 ? animationData : ''}}" class="card_item card{{ id+1 > 2 ? 3 : id+1 }} " wx:for="{{ cardInfoList }}"  wx:key="unique" wx:for-index="id" wx:for-item="item">
       <span class="change_icon" bindtap="slidethis" wx:if="{{ id === 0 }}">
-        <image src="http://love-ing.oss-cn-beijing.aliyuncs.com/love%E5%B0%8F%E7%A8%8B%E5%BA%8F/changeicon.png?Expires=1501038911&OSSAccessKeyId=TMP.AQHpWWOkB3Awf_RWqYzAog2rSHOGW1pax2NlrI7THXLiNPKDs_KmCBnQHDQ6MC4CFQCyBH5bf8VktAmGB_p8aO4cVetxrQIVAJBHKEtMv291mrm-zRvXvrnnzTu_&Signature=CPFhHWcWPvIc4H4iHMzU7Tn%2Fcdw%3D"></image>
+        <image src="http://love-ing.oss-cn-beijing.aliyuncs.com/love%E5%B0%8F%E7%A8%8B%E5%BA%8F/changeicon.png"></image>
       </span>
       <view class="card_info">
         <blockquote class="card_info_mes_title">{{ item.cardInfo.cardTitle }}</blockquote>

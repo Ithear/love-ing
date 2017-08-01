@@ -1,0 +1,23 @@
+<!--pages/functionPage/functionPage.wxml-->
+<view class="page">
+    <view class="page-bottom">
+        <view class="page-content">
+            <view  class="wc">
+                <text>爱情的过程</text>
+            </view>
+            <view  class="wc">
+            <navigator url="../subject/subject">
+                <text>爱情的结果</text>
+            </navigator>
+            </view>
+            <view  class="wc">
+                <text>视频小故事</text>
+            </view>
+           
+        </view>
+    </view>
+    <view bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="page-top {{open ? 'c-state1' : ''}}">
+        <image bindtap="tap_ch" src="http://love-ing.oss-cn-beijing.aliyuncs.com/love%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E6%95%85%E4%BA%8B%E5%BC%80%E5%A7%8B.jpg"></image>
+    </view>
+</view>
+
