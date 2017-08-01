@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<navigator url="../subject/subject">
+<navigator url="../functionPage/functionPage">
 <view class="indexBody" style="background-image: url('http://love-ing.oss-cn-beijing.aliyuncs.com/love%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E9%A6%96%E9%A1%B5%E8%83%8C%E6%99%AF.jpg'); background-repeat:round;">
    <view class="buttonText" name="s" plain="ture" >欢迎进入恋爱小窝</view> 
 </view>
